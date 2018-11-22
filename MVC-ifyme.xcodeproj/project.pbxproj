@@ -12,6 +12,8 @@
 		11A7885221A6C718006F68C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A7885021A6C718006F68C5 /* Main.storyboard */; };
 		11A7885421A6C71C006F68C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A7885321A6C71C006F68C5 /* Assets.xcassets */; };
 		11A7885721A6C71C006F68C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A7885521A6C71C006F68C5 /* LaunchScreen.storyboard */; };
+		11A7886221A6D5E1006F68C5 /* AppleProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A7886121A6D5E1006F68C5 /* AppleProduct.swift */; };
+		11A7886421A6D6C3006F68C5 /* CustomPrettyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A7886321A6D6C3006F68C5 /* CustomPrettyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		11A7885321A6C71C006F68C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11A7885621A6C71C006F68C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11A7885821A6C71C006F68C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A7886121A6D5E1006F68C5 /* AppleProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProduct.swift; sourceTree = "<group>"; };
+		11A7886321A6D6C3006F68C5 /* CustomPrettyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPrettyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 		11A7885E21A6CDDA006F68C5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				11A7886121A6D5E1006F68C5 /* AppleProduct.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -76,6 +81,7 @@
 		11A7885F21A6CDF4006F68C5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				11A7886321A6D6C3006F68C5 /* CustomPrettyView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -159,8 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11A7886221A6D5E1006F68C5 /* AppleProduct.swift in Sources */,
 				11A7884F21A6C718006F68C5 /* ViewController.swift in Sources */,
 				11A7884D21A6C718006F68C5 /* AppDelegate.swift in Sources */,
+				11A7886421A6D6C3006F68C5 /* CustomPrettyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
